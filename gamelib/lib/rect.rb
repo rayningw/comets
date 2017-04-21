@@ -1,4 +1,4 @@
-require 'vector'
+require_relative './vector'
 
 class Segment
   attr_reader :length
@@ -106,11 +106,11 @@ class Rect
 
     Rect.new([x_int.low, y_int.low, z_int.low], [x_int.length, y_int.length, z_int.length])
   end
-  
+
   def empty?
     width * height * depth == 0
   end
-  
+
   def null?
     width == 0 && height == 0 && depth == 0
   end

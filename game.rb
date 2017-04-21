@@ -1,10 +1,10 @@
 #!/usr/bin/ruby
 
-require 'movement_service'
-require 'rendering_service'
-require 'input_service'
-require 'wrapping_service'
-require 'player'
+require_relative './movement_service'
+require_relative './rendering_service'
+require_relative './input_service'
+require_relative './wrapping_service'
+require_relative './player'
 
 include Math
 

@@ -1,5 +1,5 @@
-require 'gamelib'
-require 'game'
+require_relative './gamelib/lib/gamelib'
+require_relative './game'
 
 include Java
 

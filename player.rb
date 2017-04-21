@@ -1,6 +1,6 @@
 #!ruby
 
-require 'game_entity'
+require_relative './game_entity'
 
 include Java
 include Math

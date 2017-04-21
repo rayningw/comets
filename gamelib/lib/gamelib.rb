@@ -1,8 +1,8 @@
 
 module Gamelib
   def self.run(width, height, &p)
-    require 'game_frame'
-    require 'image_store'
+    require_relative './game_frame'
+    require_relative './image_store'
 
     GameFrame.new(width, height) do |gf|
       p[gf]

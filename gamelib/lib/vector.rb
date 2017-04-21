@@ -1,4 +1,4 @@
-require 'rect'
+require_relative './rect'
 
 class Vector
   attr_accessor :x, :y, :z
@@ -145,4 +145,3 @@ class Vector
     Math.sqrt(to_a.map{|x| x*x}.reduce{|d, x| x+d})
   end
 end
-

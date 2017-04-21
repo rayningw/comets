@@ -1,5 +1,5 @@
-require 'key_handler'
-require 'mouse_handler'
+require_relative './key_handler'
+require_relative './mouse_handler'
 
 include_class('javax.swing.SwingUtilities')
 include_class('javax.swing.JFrame')
